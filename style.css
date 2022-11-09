@@ -25,6 +25,39 @@ a{
     display: flex;
 }
 
+.nav img{
+    height: 60px;
+    width: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding: 0;
+}
+
+.divMenu{
+    display: none !important;
+}
+
+.barsMenu{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ef6969;
+    border: solid #ffffff 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 13px;
+    transition: 260ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
 .Butt a {
     height: 40px;
     font-family: Roboto, sans-serif;
@@ -642,9 +675,19 @@ a{
         justify-self: center;
     }
 
+}
+
+@media screen and (max-width: 825px){
     .Butt{
         display: none !important;
     }
-    
 
+    .searchButton{
+        display: none !important;
+    }
+
+    .divMenu{
+        display: flex !important;
+    }
+    
 }
