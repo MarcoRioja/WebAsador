@@ -34,7 +34,7 @@ a{
 }
 
 .divMenu{
-    display: flex !important;
+    display: none !important;
 }
 
 .barsMenu{
