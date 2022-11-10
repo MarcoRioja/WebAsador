@@ -8,6 +8,11 @@ a{
     text-decoration: none;
 }
 
+.logo{
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     position: sticky;
     top: 0%;
@@ -34,7 +39,8 @@ a{
 }
 
 .divMenu{
-    display: none !important;
+    display: flex !important;
+    opacity: 0;
 }
 
 .barsMenu{
@@ -79,6 +85,13 @@ a{
     align-items: center;
     cursor: pointer;
 
+}
+
+.ButtM{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: static;
 }
 
 .ButtM a{
@@ -333,6 +346,7 @@ a{
 
 .dispMenu{
     display: none !important;
+    justify-content: center;
 }
 
 
@@ -721,12 +735,26 @@ a{
         display: none !important;
     }
 
+    .ButtM{
+        flex-wrap: wrap;
+    }
+
+    .dispMenu{
+        display: flex !important;
+        position: relative;
+        justify-content: center;
+    }
+
     .searchButton{
         display: none !important;
     }
 
     .divMenu{
-        display: flex !important;
+        display: none !important;
+    }
+
+    .nav{
+        justify-content: center;
     }
 
     .modal__img{
