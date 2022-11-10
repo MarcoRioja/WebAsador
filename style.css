@@ -751,6 +751,14 @@ a{
         display: flex !important;
     }
 
+    .modal__img{
+        max-width: 80vw;
+        margin: 0;
+    }
     
+    .modal__data{
+        max-width: 70vw;
+        margin: 0;
+    }
     
 }
