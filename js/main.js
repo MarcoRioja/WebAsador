@@ -110,18 +110,18 @@ closeModalM5.addEventListener('click', (e) =>{
     modalM5.classList.remove('modal--show');
 })
 
-//Modal Menu
+//Modal
 
-const openModalMenu = document.querySelector('.modalMenu');
-const modalMenu = document.querySelector('.modal__Menu');
-const closeModalMenu = document.querySelector('.modal__closeMenu');
+const openModalMenu = document.querySelector('.divMenu');
+const modalMenu = document.querySelector('.dispMenu');
+const closeModalMenu = document.querySelector('.closeMenu');
 
 openModalMenu.addEventListener('click', (e) =>{
     e.preventDefault();
-    modalMenu.classList.add('modal--show');
+    modalMenu.classList.add('modal--showM');
 })
 
 closeModalMenu.addEventListener('click', (e) =>{
     e.preventDefault();
-    modalMenu.classList.remove('modal--show');
+    modalMenu.classList.remove('modal--showM');
 })

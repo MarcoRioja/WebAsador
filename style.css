@@ -81,7 +81,7 @@ a{
 
 }
 
-.ButtM {
+.ButtM a{
     text-align: center;
     height: 40px;
     font-family: Roboto, sans-serif;
@@ -331,6 +331,10 @@ a{
     margin: 20px;
 }
 
+.dispMenu{
+    display: none !important;
+}
+
 
 /*--------------- Modal ------------------*/
 
@@ -418,22 +422,14 @@ a{
     pointer-events: none;
 }
 
-.modal__Menu{
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #111111bd;
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-}
-
 .modal--show{
     opacity: 1;
     pointer-events: unset;
+}
+
+.modal--showM{
+    display: flex !important;
+    justify-content: center;
 }
 
 .modal__container{
@@ -694,24 +690,6 @@ a{
     border: solid 2px #ef6969;
 }
 
-.modal__closeMenu{
-    height: 20px;
-    font-family: Roboto, sans-serif;
-    font-weight: 0;
-    font-size: 14px;
-    color: #fff;
-    background-color: #ff0000;
-    padding: 10px 30px;
-    border: solid #ffffff 2px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 13px;
-    transition: 260ms;
-    transform: translateY(0);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-}
 
 /* Media query */
 
