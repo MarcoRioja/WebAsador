@@ -109,3 +109,19 @@ closeModalM5.addEventListener('click', (e) =>{
     e.preventDefault();
     modalM5.classList.remove('modal--show');
 })
+
+//Modal Menu
+
+const openModalMenu = document.querySelector('.modalMenu');
+const modalMenu = document.querySelector('.modal__Menu');
+const closeModalMenu = document.querySelector('.modal__closeMenu');
+
+openModalMenu.addEventListener('click', (e) =>{
+    e.preventDefault();
+    modalMenu.classList.add('modal--show');
+})
+
+closeModalMenu.addEventListener('click', (e) =>{
+    e.preventDefault();
+    modalMenu.classList.remove('modal--show');
+})
