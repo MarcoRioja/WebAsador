@@ -732,6 +732,15 @@ a{
 }
 
 
+.material-symbols-outlined{
+    color: white;
+    position:relative;
+    bottom: 145px;
+    left: 20px;
+    margin: -10px;
+    padding: -10px;
+}
+
 /* Media query */
 
 @media screen and (max-width: 1000px) {
