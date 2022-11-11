@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Productos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo"><img src="imgs/logo.png" alt="Logo"></a>
+            <div class="Butt">
+                <a href="index.html" type="button">Inicio</a>
+                <a href="productos.html" type="button">Productos</a>
+                <a href="menus.html" type="button">Menu</a>
+                <a href="info.html" type="button">Información</a>
+            </div>
+            <div class="divMenu">
+                <button class="barsMenu">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+    <nav class="divBackB">
+        <a class="backB" href="index.html">
+            <i class="fa fa-rotate-left"></i>
+        </a>
+    </nav>
+
+    <main class="box1">
+        <h3 style="text-align: center; font-size: 20px; margin: 10px; padding: 10px">Productos</h3>
+        <div class="sings">
+            <div class="sing">
+                <img src="imgs/menu1.jpg" alt="Cola" class="modalCola">
+                <div class="menuT">
+                    <h4><b>Cocacola</b></h4>
+                    <p><b>1,5€</b></p>
+                </div>
+                <span class="material-symbols-outlined">
+                    touch_app
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <container class="modal__Cola">
+        <div class="modal__container">
+            <img src="imgs/menu1.jpg" alt="Foto de Menu" class="modal__img">
+            <h2 class="modal__title">Cocacola</h2>
+            <div class="modal__data">
+                <h3 class="modal__pr">Precio: 1,5€</h3>
+                <div class="rate">
+                    <span class="material-symbols-outlined" id="m11">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined" id="m12">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined" id="m13">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined" id="m14">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined" id="m15">
+                        star
+                    </span>
+                </div>
+            </div>
+            <a href="productos.html" class="modal__closeCola">Cerrar</a>
+        </div>
+    </container>
+
+
+    <script src="js/products.js"></script>
+
+</body>
+
+</html>

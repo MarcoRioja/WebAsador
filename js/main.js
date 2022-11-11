@@ -125,3 +125,4 @@ closeModalMenu.addEventListener('click', (e) =>{
     e.preventDefault();
     modalMenu.classList.remove('modal--showM');
 })
+
