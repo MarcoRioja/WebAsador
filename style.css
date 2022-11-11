@@ -704,6 +704,33 @@ a{
     border: solid 2px #ef6969;
 }
 
+.divBackB{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    display: none !important;
+    justify-content: center;
+}
+
+.backB{
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: #ef6969;
+    border: solid #ffffff 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 13px;
+    transition: 260ms;
+    transform: translateY(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Media query */
 
@@ -766,5 +793,10 @@ a{
         max-width: 70vw;
         margin: 0;
     }
+
+    .divBackB{
+        display: flex !important;
+    }
     
 }
+
