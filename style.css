@@ -11,7 +11,17 @@ a{
 .logo{
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+    display: none !important; 
 }
+
+.logo_f{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    display: block !important;
+}
+
 
 .nav {
     position: sticky;
@@ -41,6 +51,7 @@ a{
 .divMenu{
     display: flex !important;
     opacity: 0;
+    display: none;
 }
 
 .barsMenu{
@@ -65,6 +76,7 @@ a{
 }
 
 .Butt a {
+    margin-right: 5px;
     text-align: center;
     height: 40px;
     font-family: Roboto, sans-serif;
@@ -848,6 +860,15 @@ a{
 }
 
 @media screen and (max-width: 825px){
+
+    .logo{
+        /* display: block !important; */
+    }
+
+    .logo_f{
+        /* display: none !important; */
+    }
+
     .Butt{
         display: none !important;
     }
