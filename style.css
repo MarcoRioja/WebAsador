@@ -16,7 +16,7 @@ a{
 }
 
 .logo_f{
-    margin: auto;
+    margin: 0;
     padding: 0;
     border-radius: 10px;
     display: block !important;
